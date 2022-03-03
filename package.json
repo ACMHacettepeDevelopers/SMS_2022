@@ -1,0 +1,19 @@
+{
+  "name": "sms_2022",
+  "version": "1.0.0",
+  "description": "Sosyal Medya Soylesileri 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACMHacettepeDevelopers/SMS_2022.git"
+  },
+  "author": "Yigit Atak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACMHacettepeDevelopers/SMS_2022/issues"
+  },
+  "homepage": "https://github.com/ACMHacettepeDevelopers/SMS_2022#readme"
+}
