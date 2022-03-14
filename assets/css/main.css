@@ -24,6 +24,8 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 h1,
@@ -236,7 +238,7 @@ ol li {
 
 .btn-common:hover {
   color: #fff;
-  background: var(--pink);
+  background: #f0056f;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -2162,7 +2164,6 @@ a.back-to-top:focus {
 #main-slide .carousel-item img {
   position: relative;
   width: 100%;
-  height: 100vh;
 }
 
 #main-slide .carousel-inner .carousel-item::after {
@@ -2204,24 +2205,6 @@ a.back-to-top:focus {
   position: absolute;
   top: 35%;
 }
-
-#main-slide .carousel-caption .btn {
-  margin: 25px 25px 0px 0px;
-}
-
-@media only screen and (max-width: 767px) {
-  #main-slide .carousel-caption .firstSlideBtn {
-    margin-top: 32% !important;
-  }
-  #main-slide .carousel-item .carousel-caption {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-}
-
 
 #main-slide .carousel-control-next,
 #main-slide .carousel-control-prev {
@@ -2284,4 +2267,56 @@ a.back-to-top:focus {
 
 .nicknamePadding {
   padding-bottom: 36px;
+}
+
+.head-section {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+  325deg,
+  hsl(333deg 100% 53%) 0%,
+  hsl(340deg 100% 58%) 19%,
+  hsl(348deg 100% 62%) 27%,
+  hsl(357deg 100% 65%) 34%,
+  hsl(7deg 100% 65%) 41%,
+  hsl(16deg 100% 62%) 47%,
+  hsl(24deg 100% 60%) 53%,
+  hsl(31deg 100% 57%) 59%,
+  hsl(37deg 100% 55%) 66%,
+  hsl(42deg 100% 51%) 73%,
+  hsl(47deg 100% 50%) 81%,
+  hsl(50deg 100% 50%) 100%
+);
+}
+
+.sms-logo {
+  display: block;
+  width: 50vw !important;
+  height: auto;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .sms-logo {
+    width: 75vw !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+	.schedule .schedule-tab-title .nav-tabs .nav-link {
+		width: 100vw !important;
+	}
+}
+
+.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
+  background: #f0056f;
+  border: 1px solid #f0056f;
 }
