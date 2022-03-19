@@ -2320,3 +2320,8 @@ a.back-to-top:focus {
   background: #f0056f;
   border: 1px solid #f0056f;
 }
+
+.img-fluid {
+  width: 70px !important;
+  height: 70px !important;
+}
