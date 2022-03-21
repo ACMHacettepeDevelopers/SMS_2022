@@ -2345,3 +2345,10 @@ a.back-to-top:focus {
     height: 300px !important;
   }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .spnsors-logo {
+    width: 200px !important;
+    height: 155px !important;
+  }
+}
