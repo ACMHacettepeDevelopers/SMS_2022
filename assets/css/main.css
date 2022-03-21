@@ -851,11 +851,12 @@ a.back-to-top:focus {
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
+    padding-bottom: 1rem;
   }
 
   .navbar-brand {
     position: absolute;
-    padding: 15px 15px;
+    padding: 8px 15px;
     top: 0;
   }
 
