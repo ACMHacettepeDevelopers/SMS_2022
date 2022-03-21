@@ -1832,6 +1832,10 @@ a.back-to-top:focus {
   background: #00aced;
 }
 
+.footer-area .footer-social li .instagram:hover {
+  background: #fb3958;
+}
+
 .footer-area .footer-social li .linkedin:hover {
   background: #0073b1;
 }
@@ -2321,7 +2325,17 @@ a.back-to-top:focus {
   border: 1px solid #f0056f;
 }
 
-.img-fluid {
+.images-box .img-fluid {
   width: 70px !important;
   height: 70px !important;
+}
+
+.spnsors-logo {
+  height: 205px !important;
+}
+
+@media only screen and (max-width: 706px) {
+  .spnsors-logo {
+    height: 300px !important;
+  }
 }
